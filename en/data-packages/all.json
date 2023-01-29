@@ -39,6 +39,143 @@
       "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
     },
     {
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Goal",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "4",
+                ""
+              ]
+            },
+            "title": "Goal"
+          },
+          {
+            "name": "Target",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "4.1",
+                ""
+              ]
+            },
+            "title": "Target"
+          },
+          {
+            "name": "Indicator",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "4.1.2",
+                "4.1.1",
+                ""
+              ]
+            },
+            "title": "Indicator"
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "China",
+                ""
+              ]
+            },
+            "title": "Country"
+          },
+          {
+            "name": "Education Level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "UPPSEC",
+                "PRIMAR",
+                "LOWSEC",
+                "GRAD23",
+                ""
+              ]
+            },
+            "title": "Education Level"
+          },
+          {
+            "name": "Location",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ALLAREA",
+                "URBAN",
+                "RURAL",
+                ""
+              ]
+            },
+            "title": "Location"
+          },
+          {
+            "name": "Nature",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "E",
+                "C",
+                ""
+              ]
+            },
+            "title": "Nature"
+          },
+          {
+            "name": "Quartile",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "Q4",
+                "Q3",
+                "Q2",
+                "Q1",
+                "Q5",
+                ""
+              ]
+            },
+            "title": "Quartile"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "BOTHSEX",
+                "MALE",
+                "FEMALE",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of population living below the national poverty line, by sex and age"
+    },
+    {
       "path": "15-3-1-a/data.csv",
       "name": "15-3-1-a",
       "profile": "tabular-data-resource",
@@ -3769,30 +3906,6 @@
         ]
       },
       "title": "Completion rate (primary education, lower secondary education, upper secondary education)"
-    },
-    {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of population living below the national poverty line, by sex and age"
     },
     {
       "path": "3-3-4/data.csv",
