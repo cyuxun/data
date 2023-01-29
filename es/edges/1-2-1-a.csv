@@ -1,0 +1,9 @@
+From,To
+Goal,Target
+Target,Indicator
+Indicator,Country
+Country,Education Level
+Education Level,Nature
+Location,Quartile
+Sex,Location
+Nature,Sex
