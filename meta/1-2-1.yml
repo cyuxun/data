@@ -1,0 +1,7 @@
+indicator_name: China 4.1.2 Scores
+indicator_number: 1.2.1
+computation_units: Percentage
+source_active_1: true
+source_organisation_1: United Nationa
+source_url_1: "https://www.un.org/en/"
+reporting_status: complete
