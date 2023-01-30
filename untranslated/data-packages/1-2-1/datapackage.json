@@ -15,6 +15,108 @@
             "type": "number"
           },
           {
+            "name": "Goal",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "4.0",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Target",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "4.1",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Indicator",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "4.1.2",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "China",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Education Level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "UPPSEC",
+                "PRIMAR",
+                "LOWSEC",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Location",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ALLAREA",
+                "URBAN",
+                "RURAL",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Nature",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "E",
+                "C",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Quartile",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "Q4",
+                "Q3",
+                "Q2",
+                "Q1",
+                "Q5",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "FEMALE",
+                "BOTHSEX",
+                "MALE",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "number"
           }

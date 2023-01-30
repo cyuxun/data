@@ -36,8 +36,8 @@
       "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
     },
     {
-      "path": "1-2-1-a/data.csv",
-      "name": "1-2-1-a",
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -47,14 +47,14 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "number"
           },
           {
             "name": "Goal",
             "type": "string",
             "constraints": {
               "enum": [
-                "4",
+                "4.0",
                 ""
               ]
             }
@@ -75,7 +75,6 @@
             "constraints": {
               "enum": [
                 "4.1.2",
-                "4.1.1",
                 ""
               ]
             }
@@ -98,7 +97,6 @@
                 "UPPSEC",
                 "PRIMAR",
                 "LOWSEC",
-                "GRAD23",
                 ""
               ]
             }
@@ -146,9 +144,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "FEMALE",
                 "BOTHSEX",
                 "MALE",
-                "FEMALE",
                 ""
               ]
             }
@@ -159,7 +157,7 @@
           }
         ]
       },
-      "title": "China 4.1.2 Scores"
+      "title": "Proportion of population living below the national poverty line, by sex and age"
     },
     {
       "path": "15-3-1-a/data.csv",
@@ -3583,28 +3581,6 @@
       "title": "Completion rate (primary education, lower secondary education, upper secondary education)"
     },
     {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Proportion of population living below the national poverty line, by sex and age"
-    },
-    {
       "path": "3-3-4/data.csv",
       "name": "3-3-4",
       "profile": "tabular-data-resource",
@@ -5605,6 +5581,28 @@
         ]
       },
       "title": "(a) Hazardous waste generated per capita; and (b) proportion of hazardous waste treated, by type of treatment"
+    },
+    {
+      "path": "1-2-1-a/data.csv",
+      "name": "1-2-1-a",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "China 4.1.2 Scores"
     },
     {
       "path": "11-5-3/data.csv",
